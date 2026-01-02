@@ -45,7 +45,7 @@ public class DashboardController {
 
 
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        // Table Columns වලට Model එකේ නම් සම්බන්ධ කිරීම
+
         colDes.setCellValueFactory(new PropertyValueFactory<>("description"));
         colCate.setCellValueFactory(new PropertyValueFactory<>("category"));
         colAmo.setCellValueFactory(new PropertyValueFactory<>("amount"));
